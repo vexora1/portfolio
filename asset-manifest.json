@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.57e9c5ee.css",
+    "main.js": "/portfolio/static/js/main.d0d8c8cc.js",
+    "static/media/social-media-project.png": "/portfolio/static/media/social-media-project.0c2cf8140f06aee40216.png",
+    "static/media/portfolio-project.png": "/portfolio/static/media/portfolio-project.3f1271799e0999db5f9a.png",
+    "static/media/acrodeck.png": "/portfolio/static/media/acrodeck.9cba5edd6173b674cab6.png",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.bee8b2bfad6961814b32.png",
+    "static/media/blog.png": "/portfolio/static/media/blog.7d6cfe55164084ee0488.png",
+    "static/media/nolosware.png": "/portfolio/static/media/nolosware.3a4aa89dbd98c0caa1b7.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.1ca771cbed667d0225c4.png",
+    "static/media/price-1.svg": "/portfolio/static/media/price-1.63e79609e1df717d1bcca78284cf032d.svg",
+    "static/media/price-3.svg": "/portfolio/static/media/price-3.038b1db83afb389d2c31f75d333a85a2.svg",
+    "static/media/price-2.svg": "/portfolio/static/media/price-2.b077c6e5b05a1b9568884d0660aa1425.svg",
+    "static/media/dots-bg.svg": "/portfolio/static/media/dots-bg.d1e6aa716242908998f6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.57e9c5ee.css.map": "/portfolio/static/css/main.57e9c5ee.css.map",
+    "main.d0d8c8cc.js.map": "/portfolio/static/js/main.d0d8c8cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57e9c5ee.css",
+    "static/js/main.d0d8c8cc.js"
+  ]
+}
