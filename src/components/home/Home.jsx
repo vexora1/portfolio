@@ -26,13 +26,7 @@ const Home = () => {
         wrapper="span"
       ></TypeAnimation>
 
-      <div
-        className={styles.buttons}
-        /* children animation */
-        initial={{ opacity: 0, y: 100 }}
-        transition={{ duration: 1 }}
-        whileInView={{ opacity: 1, y: 0 }}
-      >
+      <div className={styles.buttons}>
         <a
           href="https://github.com/vexora1/"
           className={styles.buttonLink}
