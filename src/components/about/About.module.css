@@ -1,0 +1,163 @@
+.title {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: var(--primary);
+  text-align: center;
+}
+
+.aboutContentText {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.programsAndToolsAndLanguagesContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.programsAndToolsAndLanguagesItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: var(--background-light);
+  color: var(--text);
+  transition: all 0.3s;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.name {
+  font-size: 1.2rem;
+}
+
+.programsAndToolsAndLanguagesItem:hover {
+  background-color: var(--background);
+  color: var(--primary);
+  transform: scale(1.1);
+  cursor: default;
+}
+
+.certificates {
+  margin: 2rem 0;
+  background-color: var(--background);
+  border-radius: 1rem;
+}
+
+.certificatesTitle {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: var(--primary);
+  text-align: center;
+}
+
+.certificatesContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 2rem;
+}
+
+.certificateVerify {
+  color: var(--text);
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 47%;
+  padding: 1rem;
+  background-color: var(--background-light);
+  border-radius: 1rem;
+  transition: all 0.3s;
+}
+
+.certificateVerify:hover {
+  color: var(--primary);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.certificateContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.certificateContent img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+.certificateDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.certificateName {
+  font-size: 1.2rem;
+  font-weight: bold;
+  max-width: 100%;
+  word-break: break-all;
+  line-height: 1.5;
+}
+
+.certificateOrgAndDate {
+  line-height: 1.1;
+  font-size: 1rem;
+}
+
+.certificateVerifyIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutContentText {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  .programsAndToolsAndLanguagesItem {
+    padding: 0.5rem;
+  }
+
+  .certificatesContent {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .certificateVerify {
+    width: 95%;
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .programsAndToolsAndLanguagesItem {
+    padding: 0.5rem;
+  }
+
+  .certificatesContent {
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .certificateVerify {
+    width: 95%;
+  }
+}
