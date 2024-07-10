@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./Sidebar.module.css";
 import { FaHome, FaFolder } from "react-icons/fa";
 import { FaUserLarge } from "react-icons/fa6";
+import pp from "../../assets/pp.png";
 
 export const links = [
   {
@@ -18,7 +19,7 @@ export const links = [
   },
   {
     id: 3,
-    text: "Hakkımda",
+    text: "Hakkımda ",
     icon: <FaUserLarge className={styles.navIcon} />,
     href: "#about",
   },
@@ -48,7 +49,7 @@ const Sidebar = () => {
     <aside className={styles.sidebar}>
       <div className={styles.container}>
         <div className={styles.profile}>
-          <img src="/pp.png" alt="profile" className={styles.profileImg} />
+          <img src={pp} alt="profile" className={styles.profileImg} />
           <h4 className={styles.profileName}>Onur Kaan Güney</h4>
         </div>
 

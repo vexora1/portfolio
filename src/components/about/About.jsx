@@ -23,6 +23,9 @@ import {
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import codedex from "../../assets/codedex.png";
+import fcc from "../../assets/fcc.png";
+import meta from "../../assets/meta.png";
 
 const programsAndToolsAndLanguages = [
   {
@@ -129,7 +132,7 @@ const certificates = [
     date: "7 Temmuz 2024",
     organization: "Codedex",
     verifyUrl: "https://www.credential.net/53b0b949-f821-4199-b9c2-354b559c1589",
-    image: "/codedex.png",
+    image: codedex,
   },
   {
     id: 2,
@@ -137,7 +140,7 @@ const certificates = [
     date: "2 Temmuz 2024",
     organization: "freeCodeCamp",
     verifyUrl: "https://www.freecodecamp.org/certification/onurkaanguney/front-end-development-libraries",
-    image: "/fcc.png",
+    image: fcc,
   },
   {
     id: 3,
@@ -145,7 +148,7 @@ const certificates = [
     date: "10 Eylül 2023",
     organization: "Meta",
     verifyUrl: "https://www.coursera.org/account/accomplishments/verify/G49EDPY4KVJX",
-    image: "/meta.png",
+    image: meta,
   },
   {
     id: 4,
@@ -153,7 +156,7 @@ const certificates = [
     date: "20 Ağustos 2023",
     organization: "freeCodeCamp",
     verifyUrl: "https://www.freecodecamp.org/certification/onurkaanguney/responsive-web-design",
-    image: "/fcc.png",
+    image: fcc,
   },
 ];
 
