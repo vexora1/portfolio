@@ -2,24 +2,23 @@ import { useState, useEffect } from "react";
 import styles from "./Sidebar.module.css";
 import { FaHome, FaFolder } from "react-icons/fa";
 import { FaUserLarge } from "react-icons/fa6";
-import MobileSidebar from "./MobileSidebar";
 
 export const links = [
   {
     id: 1,
-    text: "Home",
+    text: "Giriş",
     icon: <FaHome className={styles.navIcon} />,
     href: "#home",
   },
   {
     id: 2,
-    text: "Projects",
+    text: "Projeler",
     icon: <FaFolder className={styles.navIcon} />,
     href: "#projects",
   },
   {
     id: 3,
-    text: "About",
+    text: "Hakkımda",
     icon: <FaUserLarge className={styles.navIcon} />,
     href: "#about",
   },
@@ -57,7 +56,7 @@ const Sidebar = () => {
           <ul className={styles.navList}>
             {links.map((link) => (
               <li key={link.id} className={styles.navItem}>
-                <a href={link.href} className={`${styles.navLink} ${active === link.text.toLowerCase() && styles.active}`}>
+                <a href={link.href} className={`${styles.navLink} ${active === link.href.slice(1)  && styles.active}`}>
                   {link.icon}
                   <span className={styles.navText}>{link.text}</span>
                 </a>

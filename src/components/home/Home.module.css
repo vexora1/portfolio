@@ -51,10 +51,23 @@
   border-radius: 1rem;
   cursor: pointer;
   transition: all .3s;
+  animation: scroll 1s infinite;
 }
 
 .mouse:hover {
   color: var(--primary);
+}
+
+@keyframes scroll {
+  0% {
+    bottom: 0rem;
+  }
+  50% {
+    bottom: .5rem;
+  }
+  100% {
+    bottom: 0rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {

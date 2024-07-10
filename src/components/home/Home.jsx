@@ -26,18 +26,37 @@ const Home = () => {
         wrapper="span"
       ></TypeAnimation>
 
-      <div className={styles.buttons}>
-        <a href="" className={styles.buttonLink}>
+      <div
+        className={styles.buttons}
+        /* children animation */
+        initial={{ opacity: 0, y: 100 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, y: 0 }}
+      >
+        <a
+          href="https://github.com/vexora1/"
+          className={styles.buttonLink}
+          target="_blank"
+        >
           <FaGithub />
         </a>
-        <a href="" className={styles.buttonLink}>
+        <a
+          href="https://www.linkedin.com/in/onur-kaan-g-1b6164289/"
+          className={styles.buttonLink}
+          target="_blank"
+        >
           <FaLinkedin />
         </a>
       </div>
 
-      <CgMouse className={styles.mouse} onClick={() => {
-        document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
-      }} />
+      <CgMouse
+        className={styles.mouse}
+        onClick={() => {
+          document
+            .getElementById("projects")
+            .scrollIntoView({ behavior: "smooth" });
+        }}
+      />
     </section>
   );
 };

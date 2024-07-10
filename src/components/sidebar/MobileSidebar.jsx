@@ -35,7 +35,7 @@ const MobileSidebar = () => {
         <ul className={styles.mobileNavList}>
           {links.map((link) => (
             <li key={link.id} className={styles.mobileNavItem}>
-              <a href={link.href} className={`${styles.mobileNavLink} ${active === link.text.toLowerCase() && styles.mobileNavLinkActive}`}>
+              <a href={link.href} className={`${styles.mobileNavLink} ${active === link.href.slice(1) && styles.mobileNavLinkActive}`}>
                 {link.icon}
               </a>
             </li>

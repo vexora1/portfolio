@@ -6,6 +6,10 @@ import {
   SiPython,
   SiDjango,
   SiAutodesk,
+  SiMongodb,
+  SiMongoose,
+  SiHeroku,
+  SiPostman,
 } from "react-icons/si";
 import {
   FaFigma,
@@ -96,40 +100,60 @@ const programsAndToolsAndLanguages = [
     name: "Autodesk Eagle",
     icon: <SiAutodesk className={styles.icon} />,
   },
+  {
+    id: 16,
+    name: "MongoDB",
+    icon: <SiMongodb className={styles.icon} />,
+  },
+  {
+    id: 17,
+    name: "Mongoose",
+    icon: <SiMongoose className={styles.icon} />,
+  },
+  {
+    id: 18,
+    name: "Heroku",
+    icon: <SiHeroku className={styles.icon} />,
+  },
+  {
+    id: 19,
+    name: "Postman",
+    icon: <SiPostman className={styles.icon} />,
+  },
 ];
 
 const certificates = [
   {
     id: 1,
-    name: "Sertifika Adı",
-    date: "Tarih",
-    organization: "Kurum",
-    verifyUrl: "Doğrulama Linki",
-    image: "/pp.png",
+    name: "Framework Valley: React",
+    date: "7 Temmuz 2024",
+    organization: "Codedex",
+    verifyUrl: "https://www.credential.net/53b0b949-f821-4199-b9c2-354b559c1589",
+    image: "/codedex.png",
   },
   {
-    id: 1,
-    name: "Sertifiaaaaaaaaaaaaaaaaaaaaaaaka Adı",
-    date: "Tarih",
-    organization: "Kurum",
-    verifyUrl: "Doğrulama Linki",
-    image: "/pp.png",
+    id: 2,
+    name: "Front End Development Libraries",
+    date: "2 Temmuz 2024",
+    organization: "freeCodeCamp",
+    verifyUrl: "https://www.freecodecamp.org/certification/onurkaanguney/front-end-development-libraries",
+    image: "/fcc.png",
   },
   {
-    id: 1,
-    name: "Sertifika Adı",
-    date: "Tarih",
-    organization: "Kurum",
-    verifyUrl: "Doğrulama Linki",
-    image: "/pp.png",
+    id: 3,
+    name: "React Basics",
+    date: "10 Eylül 2023",
+    organization: "Meta",
+    verifyUrl: "https://www.coursera.org/account/accomplishments/verify/G49EDPY4KVJX",
+    image: "/meta.png",
   },
   {
-    id: 1,
-    name: "Sertifika Adı",
-    date: "Tarih",
-    organization: "Kurum",
-    verifyUrl: "Doğrulama Linki",
-    image: "/pp.png",
+    id: 4,
+    name: "Responsive Web Design",
+    date: "20 Ağustos 2023",
+    organization: "freeCodeCamp",
+    verifyUrl: "https://www.freecodecamp.org/certification/onurkaanguney/responsive-web-design",
+    image: "/fcc.png",
   },
 ];
 
@@ -140,11 +164,10 @@ const About = () => {
       <div className={styles.about}>
         <div className={styles.aboutContent}>
           <p className={styles.aboutContentText}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            laoreet, ligula in ultricies lacinia, purus purus ultricies nunc,
-            nec tincidunt velit neque eu eros. Nullam nec nisl in felis
-            pellentesque ultricies. Nulla facilisi. Nullam nec nisl in felis
-            pellentesque ultricies. Nulla facilisi.
+            Merhaba, ben Onur. Üç yılı aşkın süredir yazılım ve elektronik ile 
+            ilgilenmekteyim. Kendimi sürekli geliştirmeye ve yeni şeyler öğrenmeye
+            odaklanıyorum. Son zamanlarda web geliştirme ve tasarım üzerine çalışmalar
+            yapmaktayım.
           </p>
         </div>
 
